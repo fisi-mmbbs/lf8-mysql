@@ -1,0 +1,4 @@
+select * from Artist;
+select name, kennwort from Kunde;
+select a.Name, b.URL from Artist a join BandInfo b on a.KID = b.BiID;
+select * from Artist where Gruendungsjahr between 1980 and 1990;
